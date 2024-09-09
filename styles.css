@@ -1,0 +1,244 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+    background-color: antiquewhite;
+}
+
+.header{
+    text-align: center;
+    background-image:linear-gradient(to right top,#d16ba5, #c777b9, #ba83ca,#aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+
+.link li {
+    display: inline-block;
+    padding: 15px 20px;
+    list-style: none;
+}
+.link li a{
+   text-decoration: none; 
+   font-weight: bold;
+   color: darkslategray;border-radius: 10px;
+   margin-top: 3%; transition:.4s ;
+}
+.link li a:hover{
+    color: #ba3cb0;
+}
+a:visited{
+color: black;
+}
+#home{
+    border-radius: 25px;
+    padding: 150px;
+    background-color: rgba(161, 189, 179, 0.72);
+    /* background-image: url(../ASSIGNMENT/prfl1.jpg); */
+}
+.home-img{
+    margin-left: 35%;
+    align-items: center;
+    width: 30%;
+    height: 60%;
+    right: 100%; border-radius: 45px;
+    /* transform: translate(50%); */
+}
+
+.name{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: bold;
+}
+.Description{
+    color: goldenrod;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    transition:.4s ease; 
+}
+.Description:hover{
+    color: black;
+    transform: scale(1.6)
+}
+.about-content h1{
+
+   align-items: left;
+   font-size: 68px;
+   color: rgb(36,32,30);
+}
+.about-content h3{
+    text-align: left;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    line-height: 24px;
+   
+}
+.about-content span{
+    color:rosybrown;
+}
+.about-content a{
+    text-decoration: wavy;
+    color: white;background: #353b48;
+    padding: 10px 18px; margin: 26px 0px;
+    display: inline-block; border-radius: 10px;
+transition:.4s ;
+}
+.about-content a:hover{
+    background-color: #41dfff;
+    color: #353b48;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about-content p{
+    font-size: 25px;
+}
+.about-image img{
+    float: right;
+    width: 25%;
+    border-radius: 35px;
+    /* box-shadow: #41dfff; */
+    border-radius: 45%;
+    
+}
+.skills-heading{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+color: black;
+    text-align: center;
+    font-weight: bolder;
+    transition:.4s ease;
+}
+.skills-heading:hover{
+    color: black;
+    transform: scale(1.6)
+}
+.skill{
+    /* font-size: 90px; */
+    background: #333;
+    text-transform: uppercase;
+text-align: center;
+/* width:500px; */
+margin:60px auto;
+color: wheat;
+padding: 20px;
+box-shadow: 0 14px 28px rgba(184, 47, 47, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill li{
+    
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+   
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(184, 47, 47, 0.25), 0 10px 10px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bazier(.25,.8, .25,1);
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.24);
+}
+.bar span{
+height: 20px;
+float: left;
+background: #5ffbf1;
+}
+.html{
+    text-align: right;
+    font-weight: 900;
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    text-align: right;
+    font-weight: 900;
+    width: 78%;
+    animation: css 3s;
+}.php{
+    text-align: right;
+    font-weight: 900;
+    width: 10%;
+    animation: php 3s;
+}
+.javascript{
+    text-align: right;
+    font-weight: 900;
+    width: 42%;
+    animation: javascript 3s;
+}
+.let-start {
+    border: #46eefa;
+}
+.contacts-content{
+    padding: 20px;
+    background-color: #a6e6f33e;
+    text-align:left;
+}
+.btn{
+    
+    padding: 12px 15px;
+    background:#00abf0 ;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* box-shadow: 0 0 10px #00abf0; */
+    border-radius: 50px;
+    align-content: right;
+    margin-left: 3%;
+    }
+    .btn:hover{
+        
+        box-shadow: 0 0 10px #00abf0;
+        color: white;
+    }
+footer{
+    text-align: center;
+    background-color: 0 14px 28px rgba(184, 47, 47, 0.25), 0 10px 10px rgba(0, 0, 0, 0.24);
+}
+@keyframes html{
+    0% { 
+        width:0%
+    }
+    100%{
+        width:90%
+    }
+ }
+ @keyframes css{
+    0% { 
+        width:0%
+    }
+    100%{
+        width:78%
+    }
+ }
+ @keyframes php{
+    0% { 
+        width:0%
+    }
+    100%{
+        width:10%
+    }
+ }
+ @keyframes javascript{
+    0% { 
+        width:0%
+    }
+    100%{
+        width:42%
+    }
+ }
+
+
+~
+
